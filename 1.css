@@ -1,0 +1,55 @@
+
+*{
+    background-color: aquamarine;
+    /* background-image: linear-gradient(white ; aquamarine); */
+}
+
+ol li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 10px;
+    border : solid black 1.5px;
+    border-radius:5px;
+    background-color:rgb(234, 229, 175);
+    margin-top:5px;
+    height : 50px;   
+    font-size:25px;
+  }
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.removebutton{
+    background-color:red;
+    color:black;
+    font-size: 14px;
+    margin:20px;
+    border-radius : 5px;
+    text-decoration:none;
+    /* align-items:right; */
+    height: 20px;
+    width : 50px;
+    position:relative;
+    top : -3px
+}
+.input{
+    background-color:rgb(234, 229, 175);
+    height:35px;
+    border-radius : 5px;
+    margin-right: 10px;
+}
+#addrem{
+    background-color: green;
+    color: black;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+.info{
+    background-color:rgb(19, 205, 167);
+    font-size:20px;
+}
